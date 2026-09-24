@@ -19,3 +19,7 @@
 .icon-rfid svg{display:block;width:68px;height:66px;color:var(--blue)}
 
 .icon-repair::before{width:21px;height:21px;left:23.5px;top:22.5px;border-radius:50%;background:var(--red)}
+
+#services-title{font-size:clamp(20.4px,2.1vw,31.2px)}
+
+.line-qr{display:block;width:min(180px,100%);height:auto;margin:0 0 18px}
