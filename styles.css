@@ -23,3 +23,7 @@
 #services-title{font-size:clamp(20.4px,2.1vw,31.2px)}
 
 .line-qr{display:block;width:min(180px,100%);height:auto;margin:0 0 18px}
+
+.service-grid .service-card{transition:background-color .22s ease}.service-grid .service-card:hover{background-color:#dcecf6}.service-grid .service-card-feature:hover{background-color:#d4e5ef}
+
+.service-link{cursor:pointer;position:relative}.service-link:focus-visible{outline:3px solid var(--red);outline-offset:-3px}.service-link:hover 
