@@ -6,9 +6,9 @@ const catalog = {
     products: [
       {brand:"TYPE",name:"Lynex",image:"assets/products/lynex.png",desc:"มอเตอร์ประกอบในประเทศไทย ตัวถังสแตนเลส มีระบบ Slowdown และ Encoder ช่วยให้เปิดปิดนุ่มนวล",spec:"รองรับประตูสูงสุด 800 กก. หรือ 1,000 กก. ในรุ่นฟังก์ชันพิเศษ",price:"29,000 บาท"},
       {brand:"TYPE",name:"Lynex SIM",image:"assets/products/lynex-sim.png",desc:"ควบคุมและตรวจสอบสถานะประตูผ่านโทรศัพท์ รองรับทั้งโทรศัพท์ทั่วไป iOS และ Android",spec:"รองรับประตูสูงสุด 800 กก. หรือ 1,000 กก. ในรุ่นฟังก์ชันพิเศษ",price:"36,000 บาท"},
-      {brand:"ROGER",name:"SLR400/M30",image:"assets/products/roger-slr400-m30.jpg",desc:"มอเตอร์นำเข้าจากอิตาลี พร้อม Optical encoder ตรวจจับรอบมอเตอร์และระบบ Slowdown",spec:"เหมาะสำหรับบ้านพักอาศัย รองรับประตูสูงสุด 400 กก.",price:"26,000 บาท"},
-      {brand:"FAAC",name:"746ER",image:"assets/products/faac-746er.png",desc:"มอเตอร์และห้องเกียร์แบบ Oil bath จากอิตาลี มี Soft stop และแผงควบคุมดิจิทัล",spec:"รองรับประตูสูงสุด 600 กก.",price:"52,000 บาท"},
-      {brand:"BSM",name:"BSM800",image:"assets/products/bsm800.jpg",desc:"รุ่นพื้นฐานราคาประหยัดสำหรับบ้านพักอาศัยทั่วไป ใช้งานง่ายและรองรับประตูขนาดใหญ่",spec:"รองรับประตูสูงสุด 800 กก.",price:"17,000 บาท"}
+      {brand:"ROGER",name:"H30/644",image:"assets/products/Roger_H30644.png",desc:"มอเตอร์ประตูรีโมทบานเลื่อน ROGER H30/644 สำหรับประตูรั้วบานเลื่อน รองรับการใช้งานในบ้านพักอาศัยและอาคาร",spec:"รองรับน้ำหนักประตูสูงสุด 600 กก.",price:"28,000 บาท"},
+      {brand:"DEA",name:"LIVI9/24X/M",image:"assets/products/DEA_LIVI9_24X_M.png",desc:"มอเตอร์ประตูรีโมทบานเลื่อน DEA รุ่น LIVI9/24X/M สำหรับระบบประตูรั้วบานเลื่อน มอเตอร์ DC ทำงานได้แม้ไฟดับ มีฟังก์ชั่น Softstart และ Slowdown",spec:"รองรับน้ำหนักประตูสูงสุด 900 กก.",price:"29,000 บาท"},
+      {brand:"BSM",name:"BSM800",image:"assets/products/BSM.jpg",desc:"รุ่นพื้นฐานราคาประหยัดสำหรับบ้านพักอาศัยทั่วไป ใช้งานง่ายและรองรับประตูขนาดใหญ่",spec:"รองรับประตูสูงสุด 800 กก.",price:"17,000 บาท"}
     ]
   },
   swing: {
@@ -53,6 +53,6 @@ document.getElementById("category-title").textContent = data.title;
 document.getElementById("category-intro").textContent = data.intro;
 document.getElementById("product-grid").innerHTML = data.products.map(function(item){
   var image = item.image ? '<div class="product-image"><img src="'+item.image+'" alt="'+item.brand+' '+item.name+'" loading="lazy"></div>' : '';
-  return '<article class="product-card">'+image+'<h2>'+item.brand+' '+item.name+'</h2><p>'+item.desc+'</p><div class="product-spec">'+item.spec+'</div><div class="product-price">'+item.price+'<small>กรุณายืนยันราคาและรายละเอียดกับทางร้าน</small></div></article>';
+  return '<article class="product-card">'+image+'<h2>'+item.brand+' '+item.name+'</h2><p>'+item.desc+'</p><div class="product-spec">'+item.spec+'</div><div class="product-price">'+item.price+'</div></article>';
 }).join("");
 document.getElementById("year").textContent = new Date().getFullYear();
