@@ -26,4 +26,13 @@
 
 .service-grid .service-card{transition:background-color .22s ease}.service-grid .service-card:hover{background-color:#dcecf6}.service-grid .service-card-feature:hover{background-color:#d4e5ef}
 
-.service-link{cursor:pointer;position:relative}.service-link:focus-visible{outline:3px solid var(--red);outline-offset:-3px}.service-link:hover 
+.service-link{cursor:pointer;position:relative}.service-link:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
+/* Product slideshow in the home page hero */
+.hero-panel:after{background:linear-gradient(180deg,rgba(6,25,43,.4),transparent 25%,transparent 72%,rgba(6,25,43,.68));pointer-events:none}
+.hero-product-slideshow{position:absolute;inset:0;background:#eef3f6;overflow:hidden}
+.hero-product-slideshow .hero-photo{position:absolute;inset:50% auto auto 50%;width:auto;height:auto;max-width:78%;max-height:66%;padding:0;object-fit:contain;object-position:center;opacity:0;transform:translate(-50%,-50%) scale(.985);transition:opacity 2s ease-in-out,transform 6s ease;z-index:0}
+.hero-product-slideshow .hero-photo.is-visible{opacity:1;transform:translate(-50%,-50%) scale(1)}
+#hero-product-name{transition:opacity .55s ease}
+#hero-product-name.is-changing{opacity:0}
+@media(max-width:700px){.hero-product-slideshow .hero-photo{max-width:82%;max-height:68%}}
+@media(prefers-reduced-motion:reduce){.hero-product-slideshow .hero-photo{transition:none}}

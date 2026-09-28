@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
@@ -43,8 +43,11 @@
         </div>
         <div class="hero-panel" aria-label="ประเภทงานที่ให้บริการ">
           <div class="panel-top"><span>HATYAI AUTOGATE</span></div>
-          <img class="hero-photo" src="assets/sliding-gate.png" alt="ภาพประกอบประตูรั้วบานเลื่อนอัตโนมัติ" width="1536" height="1024">
-          <div class="panel-bottom"><span>ระบบประตูรีโมท</span><span>ติดตั้ง · ซ่อม · ดูแล</span></div>
+          <div class="hero-product-slideshow" aria-live="off">
+            <img class="hero-photo is-visible" src="assets/products/lynex.png" alt="TYPE Lynex" fetchpriority="high">
+            <img class="hero-photo" src="assets/products/lynex-sim.png" alt="" aria-hidden="true">
+          </div>
+          <div class="panel-bottom"><span id="hero-product-name">TYPE Lynex</span><span>สินค้าของเรา</span></div>
         </div>
       </div>
     </section>
@@ -97,6 +100,6 @@
     </section>
   </main>
   <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> HATYAI AUTOGATE</span><a href="#top">กลับด้านบน ↑</a></div></footer>
-  <script src="script.js"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
