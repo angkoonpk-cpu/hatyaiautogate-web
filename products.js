@@ -42,7 +42,9 @@ const catalog = {
     intro:"ระบบควบคุมสิทธิ์เข้าออกด้วยบัตร รหัส ลายนิ้วมือ หรือ RFID สำหรับบ้าน อาคาร และธุรกิจ",
     source:"https://www.hatyaiautogate.com/14152902/%E0%B8%84%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94",
     products:[
-      {brand:"SOYAL",name:"721H",image:"assets/products/soyal-721h.png",desc:"ระบบ Access Control ใช้งานได้ทั้งแบบ Stand alone และ Network พร้อมชุดไฟสำรองและ Electric lock",spec:"รองรับบัตรได้ 1,000 ใบ ชุดมาตรฐานพร้อมบัตร 100 ใบ",datasheet:"assets/products/721H_en.pdf",price:"12,000 บาท"}
+      {brand:"SOYAL",name:"721H",image:"assets/products/soyal-721h.png",desc:"ระบบ Access Control ใช้งานได้ทั้งแบบ Stand alone และ Network พร้อมชุดไฟสำรองและ Electric lock",spec:"รองรับบัตรได้ 1,000 ใบ ชุดมาตรฐานพร้อมบัตร 100 ใบ",datasheet:"assets/products/721H_en.pdf",price:"12,000 บาท"},
+      {brand:"HIP",name:"Ci690S",image:"assets/products/Ci690S.png",desc:"เครื่องสแกนลายนิ้วมือและควบคุมการเข้าออก รองรับลายนิ้วมือ บัตร และรหัสผ่าน พร้อมเชื่อมต่อ TCP/IP, USB และ Wiegand",spec:"รองรับผู้ใช้ 10,000 คน และบันทึกเหตุการณ์ได้สูงสุด 200,000 รายการ",datasheet:"assets/products/Ci690SV2.pdf",price:"15,000 บาท"},
+      {brand:"ZKTeco",name:"EFace10",image:"assets/products/EFace10.png",desc:"เครื่องสแกนใบหน้าแบบไม่สัมผัสสำหรับบันทึกเวลาและควบคุมประตู ใช้เทคโนโลยี Visible Light Facial Recognition พร้อมเชื่อมต่อ TCP/IP และ USB Host",spec:"รองรับใบหน้า 1,500 ใบหน้า หน้าจอสัมผัส 4.3 นิ้ว จดจำใบหน้าภายใน 1 วินาที และบันทึกรายการได้ 150,000 รายการ",datasheet:"assets/products/EFace%2010.pdf",price:"16,000 บาท"}
     ]
   }
 };
