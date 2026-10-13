@@ -25,7 +25,7 @@ const catalog = {
     intro:"ระบบแขนกั้นสำหรับควบคุมรถเข้าออกโครงการ อาคาร และลานจอดรถ เชื่อมต่ออุปกรณ์เสริมได้",
     source:"https://www.hatyaiautogate.com/14152900/%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87",
     products:[
-      {brand:"MAG",name:"BR500",image:"assets/products/mag-br500.png",desc:"ชุดมอเตอร์แขนกั้นทาง เน้นความทนทานเป็นพิเศษ ตัวถังเหล็กหนาพ่นสีป้องกันสนิม รองรับ RFID รีโมท และไฟสัญญาณ",spec:"แขนยาว 4 หรือ 6 เมตร เปิดใน 1, 3 หรือ 6 วินาที",datasheet:"assets/products/BR500_IntelliBarrier.pdf",price:"38,000 บาท"}
+      {brand:"",name:"SDT-107",image:"assets/products/SDT-107.png",desc:"ชุดมอเตอร์แขนกั้นทาง เน้นความทนทานเป็นพิเศษ ตัวถังเหล็กหนาพ่นสีป้องกันสนิม รองรับ RFID รีโมท และไฟสัญญาณ",spec:"แขนยาว 4 หรือ 6 เมตร เปิดใน 1, 3 หรือ 6 วินาที",datasheet:"assets/products/SDT-107.pdf",price:"38,000 บาท"}
     ]
   },
   autodoor: {
