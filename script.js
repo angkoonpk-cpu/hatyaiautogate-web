@@ -8,7 +8,7 @@ const heroProducts = [
   { name: 'BSM800', image: 'assets/products/BSM.jpg' },
   { name: 'GR', image: 'assets/products/gr-swing.png' },
   { name: 'POWERTECH PW530/530L', image: 'assets/products/PW530L.png' },
-  { name: 'MAG BR500', image: 'assets/products/mag-br500.png' },
+  { name: 'SDT-107', image: 'assets/products/SDT-107-V2.png' },
   { name: 'KTH K2', image: 'assets/products/kth-k2.jpg' },
   { name: 'K1', image: 'assets/products/K1.png' },
   { name: 'SOYAL 721H', image: 'assets/products/soyal-721h.png' },
